@@ -1,0 +1,24 @@
+{
+    "name":"Check Website Security",
+    "description":"Check Website Security is a extension which checks the website that the website is safe for browsing.",
+    "manifest_version":3,
+    "version":"0.0.1",
+    "permissions":[
+        "notifications",
+        "activeTab",
+        "tabs"
+        
+        
+            ],
+            "action":{
+                "default_popup":"Backend.html",
+                "default_icon":{
+                    "128":"icon.png"
+                }
+            },
+            "background":{
+                "service_worker":"backend.js"
+
+
+            }
+}

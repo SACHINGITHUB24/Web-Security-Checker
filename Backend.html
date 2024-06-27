@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Security Checker</title>
+    <style>
+        *{
+            padding: 10px;
+            background-color: antiquewhite;
+            margin: 0;
+            font-family: sans-serif;
+
+        }
+        .h1-class{
+            font-size: 21px;
+            font-weight: bold;
+            margin: 10px;
+            color: rgb(125, 0, 142);
+            white-space: nowrap;
+            
+            
+
+        }
+        .url-input{
+            margin-top: 4px;
+            align-items: center;
+            justify-content: center;
+            margin-left: 25px;
+            padding: 8px 12px;
+            border-radius: 2px solid black;
+            border-radius: 8px;
+           
+        }
+        .button-submit{
+            margin: 10px;
+            margin-top: 7px;
+            margin-left: 23%;
+            padding: 10px;
+            border-radius: 6px;
+            color: rgb(0, 0, 0);
+            border: 1px solid rgb(0, 0, 0);
+            transition: all 0.3s ease;
+
+        }
+        /* .button-submit2{
+            margin: 10px;
+            margin-top: 7px;
+            margin-left: 16%;
+            padding: 10px;
+            border-radius: 6px;
+            color: rgb(0, 0, 0);
+            border: 1px solid rgb(0, 0, 0);
+            transition: all 0.3s ease;
+
+        } */
+        .button-submit:hover{
+            background-color: rgb(255, 94, 0);
+            color: white;
+
+        }
+
+     
+    </style>
+</head>
+<body>
+    <h1 class="h1-class">Web Security Checker</h1>
+
+    <input type="url" placeholder="Enter website URL" class="url-input" id="urlid">
+    <button type="submit" class="button-submit" id="checkweb">Check Website</button>
+<!-- 
+    <button class="button-submit2" id="checkcurrent">Check Current  Website</button>
+ -->
+
+    <script src="backend.js"></script>
+    
+</body>
+</html> 
+
